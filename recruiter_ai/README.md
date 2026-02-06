@@ -1,36 +1,76 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# RecruiterAI
 
-## Getting Started
+RecruiterAI is a premium, AI-powered recruiting platform landing page designed with a high-end SaaS aesthetic. It features a modern dark/light mode system, glassmorphism effects, and smooth animations.
 
-First, run the development server:
+![RecruiterAI Hero](https://via.placeholder.com/800x400?text=RecruiterAI+Preview)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## ✨ Features
+
+- **Premium UI/UX**: Designed with a strict, high-contrast color palette and modern typography (Geist/Inter style).
+- **Theme System**: Robust Light/Dark mode interaction using `next-themes`.
+    -   **Always-Dark Sections**: The Hero and Final CTA sections maintain a premium dark aesthetic regardless of the global theme.
+    -   **Adaptive Navbar**: Smoothly transitions between light and dark glassmorphism states.
+-   **Interactive Components**:
+    -   **Floating Conversation Cards**: Animated testimonials that float around the hero section.
+    -   **Particle CTA**: A final call-to-action with gradient mesh and floating particle animations.
+    -   **Sliding Theme Toggle**: A custom-built, physics-based pill switch with sun/moon integration.
+
+## 🛠️ Tech Stack
+
+-   **Framework**: [Next.js 16](App Router)
+-   **Styling**: [Tailwind CSS v4]
+-   **Animations**: [Framer Motion]
+-   **Icons**: [Lucide React]
+-   **Theming**: [next-themes]
+
+## 🚀 Getting Started
+
+1.  **Clone the repository**:
+    ```bash
+    git clone https://github.com/Achu-24/Recruiter_AI.git
+    cd Recruiter_AI
+    ```
+
+2.  **Install dependencies**:
+    ```bash
+    npm install
+    ```
+
+3.  **Run the development server**:
+    ```bash
+    npm run dev
+    ```
+
+4.  **Open locally**:
+    Visit [http://localhost:3000](http://localhost:3000) to see the application.
+
+## 📁 Project Structure
+
+```
+src/
+├── app/
+│   ├── layout.tsx      # Global layout with ThemeProvider
+│   ├── page.tsx        # Landing page composition
+│   └── globals.css     # Global styles & strict palette variables
+├── components/
+│   ├── Navbar.tsx      # Responsive nav with ThemeToggle
+│   ├── Hero.tsx        # Dark theme hero with floating cards
+│   ├── CTA.tsx         # Premium CTA with particle effects
+│   ├── ThemeToggle.tsx # Custom animated theme switch
+│   └── ...
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🎨 Color Palette
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The design strictly adheres to the official RecruiterAI palette:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+-   **Accents**: `#A5D8FF`, `#D0BCFF`, `#B197FC`
+-   **Primary**: `#3B82F6` (Blue)
+-   **Backgrounds**: `#EFF6FF` (Light Primary), `#000000` (Dark Primary)
 
-## Learn More
+## Figma Design Link:
 
-To learn more about Next.js, take a look at the following resources:
+https://www.figma.com/design/gfyco8T5c4UrR0nQ8CSax6/Onesol-Assignment?node-id=0-1&t=40cIawDsATfSHLOL-1
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Deployment Link:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

@@ -1,8 +1,10 @@
 # RecruiterAI
 
 RecruiterAI is a premium, AI-powered recruiting platform landing page designed with a high-end SaaS aesthetic. It features a modern dark/light mode system, glassmorphism effects, and smooth animations.
+pages
 
 ![RecruiterAI Hero](https://via.placeholder.com/800x400?text=RecruiterAI+Preview)
+
 
 ## ✨ Features
 
@@ -73,4 +75,5 @@ The design strictly adheres to the official RecruiterAI palette:
 https://www.figma.com/design/gfyco8T5c4UrR0nQ8CSax6/Onesol-Assignment?node-id=0-1&t=40cIawDsATfSHLOL-1
 
 ## Deployment Link:
+
 

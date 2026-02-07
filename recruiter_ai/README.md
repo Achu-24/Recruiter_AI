@@ -74,3 +74,4 @@ https://www.figma.com/design/gfyco8T5c4UrR0nQ8CSax6/Onesol-Assignment?node-id=0-
 
 ## Deployment Link:
 
+https://recruiter-ai-onesol.vercel.app/

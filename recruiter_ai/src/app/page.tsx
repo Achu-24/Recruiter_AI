@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import FlowchartSection from "@/components/FlowchartSection";
